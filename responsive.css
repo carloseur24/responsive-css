@@ -150,12 +150,6 @@ h6 {
   .text-3xl {
     font-size: calc(var(--text-3xl) * var(--mobile-calc)) !important;
   }
-  .card-owner-info i {
-    font-size: calc(var(--text-base) * var(--mobile-calc)) !important;
-  }
-  .logo-card {
-    font-size: calc(var(--text-5xl) * var(--mobile-calc)) !important;
-  }
   .icon-sm i {
     font-size: calc(var(--icon-size-sm) * var(--mobile-calc)) !important;
   }
@@ -188,12 +182,6 @@ h6 {
   }
   .text-3xl {
     font-size: calc(var(--text-3xl) * var(--small-calc)) !important;
-  }
-  .card-owner-info i {
-    font-size: calc(var(--text-base) * var(--small-calc)) !important;
-  }
-  .logo-card {
-    font-size: calc(var(--text-5xl) * var(--small-calc)) !important;
   }
   .icon-sm i {
     font-size: calc(var(--icon-size-sm) * var(--small-calc)) !important;
