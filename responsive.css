@@ -1,0 +1,128 @@
+:root {
+  --principal-color: #efeff0;
+  --secundario-color: #31a0f5;
+  --terciario-color: #f0d346;
+  --icon-size-sm: 1.1rem;
+  --icon-size-md: 1.8rem;
+  --icon-size-lg: 2.3rem;
+  --black: #121519;
+  --gray: #465362;
+  --green: #3cc17a;
+  --light: 300;
+  --medium: 500;
+  --heavy: 700;
+  --tracking-sm: 0.8px;
+  --tracking-md: 1.1px;
+  --tracking-lg: 1.5px;
+  --tracking-xl: 1.8px;
+  --opacity-light: 0.2;
+  --opacity-medium: 0.6;
+  --opacity-strong: 0.9;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --border-circle: 50%;
+  --border-sm: 10px;
+  --border-md: 12.5px;
+  --border-lg: 18px;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+  --text-7xl: 4.5rem;
+  --text-8xl: 6rem;
+  --text-9xl: 8rem;
+  --mobile-calc: 1.5;
+  --small-calc: 1.8;
+  --medium-calc: 2.5;
+  --large-calc: 2.8;
+
+  font-size: 18px !important;
+}
+
+body {
+  background-color: var(--principal-color) !important;
+  height: 100vh;
+  position: relative;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  letter-spacing: var(--tracking-sm);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0% !important;
+  font-size: 1rem !important;
+}
+
+/* Custom classes */
+.opacity-light {
+  opacity: var(--opacity-light);
+}
+.opacity-medium {
+  opacity: var(--opacity-medium);
+}
+.opacity-strong {
+  opacity: var(--opacity-strong);
+}
+.light {
+  font-weight: var(--light);
+}
+.medium {
+  font-weight: var(--medium);
+}
+.color-light {
+  color: var(--gray);
+}
+.strong {
+  color: var(--black);
+  font-weight: var(--heavy);
+}
+
+.icon-sm i {
+  font-size: var(--icon-size-sm);
+}
+.icon-md i {
+  font-size: var(--icon-size-md);
+}
+.icon-lg i {
+  font-size: var(--icon-size-lg);
+}
+.subtitle {
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-md);
+}
+.text-xs {
+  font-size: var(--text-xs) !important;
+}
+.text-sm {
+  font-size: var(--text-sm) !important;
+}
+.text-base {
+  font-size: var(--text-base) !important;
+}
+.text-lg {
+  font-size: var(--text-lg) !important;
+}
+.text-xl {
+  font-size: var(--text-xl) !important;
+}
+.text-2xl {
+  font-size: var(--text-2xl) !important;
+}
+.text-3xl {
+  font-size: var(--text-3xl) !important;
+}
+.text-shadow {
+  text-shadow: 1px 1px 8px #0000007b;
+}
+.card-shadow {
+  border: none !important;
+  box-shadow: 0.5px 0.5px 10px #00000017;
+}
