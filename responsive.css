@@ -126,3 +126,82 @@ h6 {
   border: none !important;
   box-shadow: 0.5px 0.5px 10px #00000017;
 }
+
+
+@media (min-width: 576px) {
+  .text-xs {
+    font-size: calc(var(--text-xs) * var(--mobile-calc)) !important;
+  }
+  .text-sm {
+    font-size: calc(var(--text-sm) * var(--mobile-calc)) !important;
+  }
+  .text-base {
+    font-size: calc(var(--text-base) * var(--mobile-calc)) !important;
+  }
+  .text-lg {
+    font-size: calc(var(--text-lg) * var(--mobile-calc)) !important;
+  }
+  .text-xl {
+    font-size: calc(var(--text-xl) * var(--mobile-calc)) !important;
+  }
+  .text-2xl {
+    font-size: calc(var(--text-2xl) * var(--mobile-calc)) !important;
+  }
+  .text-3xl {
+    font-size: calc(var(--text-3xl) * var(--mobile-calc)) !important;
+  }
+  .card-owner-info i {
+    font-size: calc(var(--text-base) * var(--mobile-calc)) !important;
+  }
+  .logo-card {
+    font-size: calc(var(--text-5xl) * var(--mobile-calc)) !important;
+  }
+  .icon-sm i {
+    font-size: calc(var(--icon-size-sm) * var(--mobile-calc)) !important;
+  }
+  .icon-md i {
+    font-size: calc(var(--icon-size-md) * var(--mobile-calc)) !important;
+  }
+  .icon-lg i {
+    font-size: calc(var(--icon-size-lg) * var(--mobile-calc)) !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-xs {
+    font-size: calc(var(--text-xs) * var(--small-calc)) !important;
+  }
+  .text-sm {
+    font-size: calc(var(--text-sm) * var(--small-calc)) !important;
+  }
+  .text-base {
+    font-size: calc(var(--text-base) * var(--small-calc)) !important;
+  }
+  .text-lg {
+    font-size: calc(var(--text-lg) * var(--small-calc)) !important;
+  }
+  .text-xl {
+    font-size: calc(var(--text-xl) * var(--small-calc)) !important;
+  }
+  .text-2xl {
+    font-size: calc(var(--text-2xl) * var(--small-calc)) !important;
+  }
+  .text-3xl {
+    font-size: calc(var(--text-3xl) * var(--small-calc)) !important;
+  }
+  .card-owner-info i {
+    font-size: calc(var(--text-base) * var(--small-calc)) !important;
+  }
+  .logo-card {
+    font-size: calc(var(--text-5xl) * var(--small-calc)) !important;
+  }
+  .icon-sm i {
+    font-size: calc(var(--icon-size-sm) * var(--small-calc)) !important;
+  }
+  .icon-md i {
+    font-size: calc(var(--icon-size-md) * var(--small-calc)) !important;
+  }
+  .icon-lg i {
+    font-size: calc(var(--icon-size-lg) * var(--small-calc)) !important;
+  }
+}
