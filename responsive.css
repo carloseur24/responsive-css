@@ -203,6 +203,9 @@ a {
   border: none !important;
 }
 
+.transition-io-150 {
+  transition: all ease-in-out 150ms;
+}
 
 @media (min-width: 576px) {
   .text-xs {
