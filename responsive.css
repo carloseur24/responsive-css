@@ -7,6 +7,7 @@
   --icon-size-lg: 2.3rem;
   --black: #121519;
   --gray: #465362;
+  --gray-light: #d5dae25a;
   --green: #3cc17a;
   --light: 300;
   --medium: 500;
@@ -59,6 +60,27 @@ h5,
 h6 {
   margin: 0% !important;
   font-size: 1rem !important;
+}
+
+a {
+  color: var(--black) !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--principal-color);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--blue);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 /* Custom classes */
@@ -125,6 +147,48 @@ h6 {
 .card-shadow {
   border: none !important;
   box-shadow: 0.5px 0.5px 10px #00000017;
+}
+
+.py-10 {
+  padding: 10px 0;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+
+.py--10 {
+  padding: 10% 0;
+}
+.pb--15 {
+  padding-bottom: 15%;
+}
+
+.gap-5 {
+  gap: 5px !important;
+}
+.gap-10 {
+  gap: 10px !important;
+}
+.gap-20 {
+  gap: 20px !important;
+}
+.gap-30 {
+  gap: 30px !important;
+}
+
+.self-right {
+  align-self: flex-end;
+}
+.self-left {
+  align-self: flex-start;
+}
+
+.absolute-center {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
 }
 
 
